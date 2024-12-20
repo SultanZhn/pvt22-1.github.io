@@ -1,0 +1,30 @@
+.chef{
+    display: flex;
+    justify-content: space-between;
+}
+.chef_card{
+    width: 23%;
+}
+.chef_card img{
+    width: 100%;
+}
+.chef_items{
+    text-align: center;
+    padding: 25px 0px;
+}
+.chef_items h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.chef_items p{
+    margin-bottom: 20px;
+}
+.chef_icons{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+.chef_icons i{
+    padding: 5px;
+    margin-left: 10px;
+}

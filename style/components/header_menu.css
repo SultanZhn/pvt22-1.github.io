@@ -1,0 +1,23 @@
+.header_menu{
+    background-image: url('../../img/bg-header.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.header_items{
+    max-width: 40%;
+    padding: 9.5% 0;
+}
+.header_items h1{
+    font-size: 80px;
+}
+.header_items p{
+    margin: 30px 0px;
+}
+.btn{
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 18px;
+    border-radius: 2px;
+    letter-spacing: 3px;
+}

@@ -1,0 +1,33 @@
+.dishes{
+    display: flex;
+    justify-content: space-between;
+}
+.dish_card{
+    width: 280px;
+}
+.dish_card img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.dish_items{
+    text-align: center;
+    font-size: 18px;
+}
+.dish_items h3{
+    text-transform: uppercase;
+}
+.dish_items p{
+    margin: 20px 0px;
+}
+.dishes_arrow{
+    text-align: center;
+}
+.dishes_arrow button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.dishes_arrow button i{
+    color: #FFFFFF;
+    padding: 0px 5px; 
+}

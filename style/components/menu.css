@@ -1,0 +1,54 @@
+.menu{
+    background-image: url('../../img/bg-pattern.jpg');
+}
+.menu_links ul{
+    display: flex;
+    justify-content: center;
+}
+.menu_links ul li{
+    margin: 10px;
+}
+.menu_links ul li button{
+    font-size: 18px;
+    padding: 8px 16px;
+    background-color: #FFCC33;
+    color: #000000;
+    font-weight: 900;
+    border: none;
+    cursor: pointer;
+}
+#active{
+    color: #FFFFFF;
+    background-color: #b8b8b8;
+}
+.menu_links ul li button:hover{
+    color: #FFFFFF;
+    background-color: #b8b8b8;
+    transition: .5s;
+}
+.menu_grid{
+    margin-top: 50px;
+    display: grid;
+    grid-auto-rows: 450px;
+    grid-auto-columns: 275px;
+    gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.menu_grid_card img{
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.menu_grid_card img:hover{
+    filter: brightness(50%);
+    transition: .5s;
+}
+.menu_items{
+    text-align: center;
+}
+.menu_items h3{
+    margin: 20px 0px;
+}
+.menu_items p{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,40 @@
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contacts_item{
+    width: 25%;
+    padding: 30px;
+}
+.contacts_item div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.contacts_item div i{
+    font-size: 20px;
+    color: #FFCC33;
+    margin-right: 15px;
+}
+.contacts_item div h3{
+    font-size: 20px;
+}
+.contacts_item p{
+    color: #FFFFFF;
+}
+.contacts_item a{
+    color: #FFCC33;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+.contacts_item a:hover{
+    color: #b8b8b8;
+    transition: .5s;
+}
+.contact_icons{
+    width: 25%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}

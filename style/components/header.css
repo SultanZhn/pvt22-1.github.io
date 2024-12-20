@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+    /* position: fixed;
+    top: 0px; */
+}
+.header_links ul{
+    display: flex;
+}
+.header_links ul li a{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-left: 50px;
+}

@@ -1,0 +1,87 @@
+.good_food{
+    background-image: url('../../img/bg-pattern.jpg');
+}
+.good_food_items{
+    display: flex;
+    justify-content: space-between;
+}
+.good_food_img{
+    width: 40%;
+    height: 80%;
+    position: relative;
+}
+.good_food_img img{
+    width: 100%;
+    height: 100%;
+}
+.good_food_img button{
+    position: absolute;
+    left: 45%;
+    right: 45%;
+    top: 45%;
+    bottom: 45%;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border: none;
+    cursor: pointer;
+}
+.good_food_titles{
+    width: 55%;
+}
+.good_food_head{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.good_food_head h2{
+    font-size: 40px;
+}
+.good_food_titles p{
+    margin-bottom: 20px;
+}
+.good_food_icons{
+    display: flex;
+    justify-content: space-around;
+}
+.good_icon{
+    margin-top: 20px;
+    text-align: center;
+}
+.good_icon img{
+    margin-bottom: 20px;
+}
+.good_icon h5{
+    font-size: 14px;
+}
+.video_modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.video_box{
+    position: relative;
+}
+.video_modal button{
+    position: absolute;
+    top: -25px;
+    right: 0px;
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+.video_modal button:hover{
+    color: #b8b8b8;
+    transition: .6s;
+}
+.video_open{
+    display: flex;
+}
